@@ -46,7 +46,10 @@ module.exports.routes = {
   'get /login':  'PassportAuthController.login',
   'post /login': 'PassportAuthController.loginProcess',
   '/logout':     'PassportAuthController.logout',
-  '/protected':  'PassportAuthController.protected'
+  '/protected':  'PassportAuthController.protected',
+  '/test/index1': {
+    view: 'test/index1'
+  },
 
 
 
